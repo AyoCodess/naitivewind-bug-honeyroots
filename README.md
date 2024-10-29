@@ -32,7 +32,7 @@ Follow these steps to set up and run the mobile app:
 
    NOTE: The IOS and Android builds are present in this mobile app directory so you dont have to create new builds but you can by following instructions (3)
 
-3. **Create dev build for IOS (same for android, refer to mobile app package.json for android commands)**:
+3. **Create dev build for IOS (for android refer to mobile app package.json for commands)**:
    Navigate to the mobile app directory and start the app:
    ```bash
    cd apps/mobile
