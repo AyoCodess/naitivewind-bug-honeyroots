@@ -38,6 +38,7 @@ Follow these steps to set up and run the mobile app:
    cd apps/mobile
    pnpm prebuild-i
    pnpm local-dev-i-s
+   pnpm start
    ```
 
 4. **Run the Mobile App**:
