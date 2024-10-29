@@ -28,7 +28,7 @@ Follow these steps to set up and run the mobile app:
    ```bash
    pnpm install
 
-3. **Create dev build for IOS (same for android, refer to package.json for commands)**:
+3. **Create dev build for IOS (same for android, refer to mobile app package.json for android commands)**:
    Navigate to the mobile app directory and start the app:
    ```bash
    cd apps/mobile
