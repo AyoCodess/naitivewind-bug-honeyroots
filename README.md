@@ -27,9 +27,16 @@ Follow these steps to set up and run the mobile app:
    Use `pnpm` to install all dependencies for the monorepo at root:
    ```bash
    pnpm install
+
+3. **Create dev build for IOS (same for android, refer to package.json for commands)**:
+   Navigate to the mobile app directory and start the app:
+   ```bash
+   cd apps/mobile
+   pnpm prebuild-i
+   pnpm local-dev-i-s
    ```
 
-3. **Run the Mobile App**:
+4. **Run the Mobile App**:
    Navigate to the mobile app directory and start the app:
    ```bash
    cd apps/mobile
