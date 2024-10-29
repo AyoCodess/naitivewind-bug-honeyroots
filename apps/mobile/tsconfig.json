@@ -1,0 +1,41 @@
+{
+  "extends": [
+    "@honeyroots/tsconfig/base.json"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "jsx": "react-native",
+    "types": [
+      "nativewind/types"
+    ],
+    "checkJs": false,
+    "moduleSuffixes": [
+      ".ios",
+      ".android",
+      ".native",
+      ""
+    ],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src",
+    "*.ts",
+    "*.js",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "../../packages/backend/convex/insightsCountTracker.ts",
+    "nativewind-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "scripts/copy-design-system.mjs",
+    "scripts/incrementMinorVersion.js",
+    "scripts/incrementUpdateVersion.js"
+  ]
+}
